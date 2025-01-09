@@ -1,4 +1,5 @@
 ﻿using Assig04.Frist_Project;
+using Assig04.Second_Project;
 using System.Drawing;
 using System.Net;
 
@@ -17,7 +18,7 @@ namespace Assig04
             //Console.WriteLine(P); 
             #endregion
 
-            
+
             #region 3-Read from the User the Coordinates for 2 points P1, P2 (Check the input using try Pares
             //Point3D P1 = new Point3D();
 
@@ -58,26 +59,32 @@ namespace Assig04
 
 
             #region 5-Define an array of points and sort this array based on X & Y coordinates.
-            Point3D[] point3D = new Point3D[3]
-            {
-                new Point3D(100,2,3),
-                new Point3D(50,5,6),
-                new Point3D(1,8,9),
-            };
-
-            Array.Sort(point3D);
-
-            foreach (Point3D p in point3D)
-            {
-                Console.WriteLine(p);
-            }
+            //Point3D[] point3D = new Point3D[3]
+            //{
+            //new Point3D(100,2,3),
+            //new Point3D(50,5,6),
+            //new Point3D(1,8,9),
+            //};
+            //
+            //Array.Sort(point3D);
+            //
+            //foreach (Point3D p in point3D)
+            //{
+            //    Console.WriteLine(p);
+            //}
             #endregion
 
 
+            #region Define Class Maths that has four methods: Add, Subtract, Multiply, and Divide, each of them takes two parameters. Call each method in Main ().Modify the program so that you do not have to create an instance of class to call the four methods.
 
+            //Console.WriteLine(Mathh.Add(6, 2));
+            //Console.WriteLine(Mathh.Subtract(6, 2));
+            //Console.WriteLine(Mathh.Multiply(6, 2));
+            //Console.WriteLine(Mathh.Divide(6, 2)); 
+        #endregion
 
 
 
         }
-    }
+}
 }
