@@ -1,6 +1,7 @@
 ﻿using Demo.abstraction;
 using Demo.Mapping;
 using Demo.Operator_Overloading;
+using Demo.satic;
 using System.Drawing;
 
 namespace Demo
@@ -50,6 +51,7 @@ namespace Demo
 
 
             #endregion
+
             #region Casting and MApping
 
             //Complex C01 = new Complex() { Real = 3, Imag = 4 };
@@ -69,7 +71,17 @@ namespace Demo
             //}; 
             #endregion
 
+            #region static
 
+            //Utilities U01= new Utilities();
+            //Utilities U02= new Utilities();
+            //Utilities U03= new Utilities(); 
+            //Utilities U04= new Utilities();
+
+            //Console.WriteLine(Utilities.CmToInch(254));
+            //Console.WriteLine(Utilities.PI);
+
+            #endregion
         }
     }
 }
