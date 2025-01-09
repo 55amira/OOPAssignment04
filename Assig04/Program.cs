@@ -1,5 +1,6 @@
 ﻿using Assig04.Frist_Project;
 using Assig04.Second_Project;
+using Assig04.Third_Project;
 using System.Drawing;
 using System.Net;
 
@@ -81,7 +82,17 @@ namespace Assig04
             //Console.WriteLine(Mathh.Subtract(6, 2));
             //Console.WriteLine(Mathh.Multiply(6, 2));
             //Console.WriteLine(Mathh.Divide(6, 2)); 
-        #endregion
+            #endregion
+
+            Duration duration = new Duration(10, 15, 19);
+            Duration duration01 = new Duration(10, 45, 49);
+
+            Console.WriteLine(duration.ToString());
+            Console.WriteLine(duration.GetHashCode());
+            Console.WriteLine(duration.Equals(duration01));
+
+
+
 
 
 
