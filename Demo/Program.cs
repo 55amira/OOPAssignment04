@@ -1,4 +1,5 @@
 ﻿using Demo.abstraction;
+using Demo.Mapping;
 using Demo.Operator_Overloading;
 using System.Drawing;
 
@@ -19,6 +20,7 @@ namespace Demo
             // Console.WriteLine(square.Perimeter);
             // Console.WriteLine(square.GetArea()); 
             #endregion
+
             #region operator overloading
             //
             //Complex C01 = new Complex() { Real = 3, Imag = 4 };
@@ -45,7 +47,29 @@ namespace Demo
             //}
             //else
             //    Console.WriteLine("C02"); 
+
+
             #endregion
-        }   
+            #region Casting and MApping
+
+            //Complex C01 = new Complex() { Real = 3, Imag = 4 };
+
+            ////string S = (String) C01;
+            ////Console.WriteLine(S);
+
+            //int X = C01;
+            ////Console.WriteLine(X);
+            //User user = new User();
+            //
+            //UserDto userDto = new UserDto()
+            //{
+            //    Email = user.Email,
+            //    Name = user.Name,
+            //    PhoneNumber = user.PhoneNumber,
+            //}; 
+            #endregion
+
+
+        }
     }
 }
